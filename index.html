@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Highlights</title>
+    <style>
+        /* General reset */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2.5rem;
+            color: #2c3e50;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-header {
+            cursor: pointer;
+            padding: 15px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 8px 8px 0 0;
+            transition: background-color 0.3s;
+        }
+
+        .section-header:hover {
+            background-color: #3498db;
+        }
+
+        .section-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out;
+            padding: 0 15px;
+        }
+
+        .section-content.expanded {
+            max-height: 500px;
+            padding: 15px;
+        }
+
+        .subheader {
+            font-size: 1rem;
+            font-weight: bold;
+            margin-top: 10px;
+            cursor: pointer;
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        .subheader:hover {
+            color: #3498db;
+        }
+
+        .details {
+            margin-top: 5px;
+            padding-left: 15px;
+            color: #555;
+            display: none;
+        }
+
+        .details.visible {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Omar's Key Highlights</h1>
+    <div class="container">
+
+        <!-- Key Contributions Section -->
+        <div class="section">
+            <div class="section-header">Key Contributions</div>
+            <div class="section-content">
+                <div>
+                    <div class="subheader">Kashier Payment Services 🇪🇬</div>
+                    <div class="details">
+                        <ul>
+                            <li>Played a pivotal role as part of the "PVAS" squad in launching the revamped merchant
+                                portals.</li>
+                            <li>Contributed to revamping the payment links feature in the Kashier system.</li>
+                            <li>Implemented the categorization feature in the system to improve usability and
+                                organization.</li>
+                            <li>Contributed to Role-Based Access Control (RBAC) authorization using caching strategies
+                                with Redis to optimize performance.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="subheader">BDURO 🇪🇸</div>
+                    <div class="details">
+                        <ul>
+                            <li><b>Details:</b> Billetra El Duro, is a rewarding platform and mobile app for products
+                                and services in Spain. </li>
+                            <li><b>Role:</b> Backend Engineer </li>
+                            <li><b>Technologies:</b> Node.js, NestJS, Angular, PostgeSQL, Redis, Docker, K8s </li>
+                            <li><b>URL:</b> <a href="https://bduro.com/" target="_blank">BDURO</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="subheader">GenTech 🌍</div>
+                    <div class="details">
+                        <ul>
+                            <li>
+                                <div class="subheader">Adepti 🇪🇺 🇳🇱</div>
+                                <div class="details">
+                                    <ul>
+                                        <li><b>Details:</b> A Startup based on a web application where you can
+                                            identify your employees skills they possess and continuously offer them
+                                            opportunities
+                                            to grow and develop based on skills, career path, and ambitions.
+
+                                            <i>Adepti</i> is an internal talent marketplace that companies can use to
+                                            maximize the potential within the company
+                                            Identify, develop, manage and connect internal talent to increase employee
+                                            engagement and job satisfaction.
+                                        </li>
+                                        <li><b>Role:</b> Development Team Lead, and Backend Engineer</li>
+                                        <li><b>Technologies:</b> Django REST Framework, PostgeSQL, Neo4j, React, Docker,
+                                            Redis
+                                        </li>
+                                        <li><b>URL:</b> <a href="https://www.adepti.co/" target="_blank">Adepti</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="subheader">Tawasully App 🇸🇦</div>
+                                <div class="details">
+                                    <ul>
+                                        <li><b>Details:</b> "Tawaasuly" app aims to help the Arab deaf to communicate
+                                            with the outside world in an easier and simpler way.
+
+                                            This app is a major step in empowering the deaf community and opening new
+                                            doors for their communication.
+                                        </li>
+                                        <li><b>Technologies: </b> Flutter, Node.js, Express.js, MongoDB, Docker,
+                                            Redis</b></li>
+                                        <li><b>Role:</b> Team Lead, and Backend Engineer</li>
+                                        <li><b>APP URL:</b> <a
+                                                href="https://play.google.com/store/apps/details?id=com.innovationsource.tawasoli"
+                                                target="_blank">Tawasuly</a></li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="subheader">Srena Mobility Services 🇸🇦</div>
+                    <div class="details">
+                        <ul>
+                            <li><b>Details:</b> Srena is a leading provider of green transportation
+                                services in Saudi Arabia.
+                                I was part of the team that developed and delivered the entire Srena mobile app and the
+                                backend system. that includes the following features:
+                                <ul>
+                                    <li>Driver Management</li>
+                                    <li>Vehicle Management</li>
+                                    <li>Booking Management</li>
+                                    <li>Payment Management</li>
+                                    <li>Rating and Review Management</li>
+                                </ul>
+
+                            </li>
+                            <li><b>Role:</b> Backend Team Lead</li>
+                            <li><b>Technologies:</b> Node.js, Express.js, MongoDB, Docker, Redis, RabbitMQ, Angular,
+                                Flutter,
+                                and Flespi</li>
+                            <li><b>URL:</b> <a href="https://user.taxi.srena.com/" target="_blank">Srena Mobility
+                                    Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="subheader">GOE 🇪🇬</div>
+                    <div class="details">
+                        <ul>
+                            <li><b>Details:</b> GOE is an e-learning platform that offers online courses for kids
+                                in Egypt.
+                                I was part of the team that developed and delivered the entire GOE website and the
+                                backend system. my main Contribution was:
+                            <li>Developed a custom Payment plugin to connect the marketplace to Paymob payment gateway
+                                using PHP </li>
+
+                            </li>
+                            <li><b>Role:</b> Web Developer</li>
+                            <li><b>Technologies:</b> PHP, MySQL, HTML, CSS, JavaScript</li>
+                            <li><b>URL:</b> <a href="https://gkc-online.com/local/coursecomplex/shop.php"
+                                    target="_blank">GOE</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Certificates Section -->
+        <div class="section">
+            <div class="section-header">Certificates</div>
+            <div class="section-content">
+                <div>
+                    <div class="subheader">Full Stack Development Track | 1 Million Arab Coders</div>
+                    <div class="details">
+                        <ul>
+                            <li><b>Year:</b> Mar. 2020</li>
+                            <li><b>Languages:</b> HTML, CSS, JavaScript, Python</li>
+                            <li><b>Technologies:</b> React, Node.js, Express.js</li>
+                            <li><b>Tools:</b> Git, GitHub</li>
+                            <li><b>Certificate ID:</b> VLAUJ3ND</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="subheader">Programming for Everybody | University of Michigan</div>
+                    <div class="details">
+                        <ul>
+                            <li><b>Year:</b> Feb. 2020</li>
+                            <li><b>Languages:</b> Python</li>
+                            <li><b>Certificate ID:</b> JYC2FDAW5PY7</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="subheader">Full-Stack Development Diploma | Russian Culture Center</div>
+                    <div class="details">
+                        <ul>
+                            <li>Year: 2019</li>
+                            <li>Languages: C#, T-SQL</li>
+                            <li>Technologies: ASP.NET Core, Entity Framework</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Achievements Section -->
+        <div class="section">
+            <div class="section-header">Achievements</div>
+            <div class="section-content">
+                <div>
+                    <div class="subheader">Top-Rated Full Stack Software Engineer on Upwork 🌍</div>
+                    <div class="details">
+                        <ul>
+                            <li><b>Description:</b> I have achieved the prestigious status of being a Top-Rated Full
+                                Stack Software Engineer on
+                                Upwork in January 2024.
+                            </li>
+                            <li><b>URL:</b> <a href="https://www.upwork.com/freelancers/~01a169be9c24f2697c"
+                                    target="_blank">Upwork Profile</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="subheader">Rising Talent on Upwork 🌍</div>
+                    <div class="details">
+                        <ul>
+                            <li><b>Description:</b> I have been recognized as a Risi Talent on Upwork in 2023.
+                            </li>
+                            <li><b>URL:</b> <a href="https://www.upwork.com/freelancers/~01a169be9c24f2697c"
+                                    target="_blank">Upwork Profile</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Expand/Collapse Sections
+        const sectionHeaders = document.querySelectorAll('.section-header');
+        sectionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                content.classList.toggle('expanded');
+            });
+        });
+
+        // Expand/Collapse Subheaders
+        const subheaders = document.querySelectorAll('.subheader');
+        subheaders.forEach(subheader => {
+            subheader.addEventListener('click', () => {
+                const details = subheader.nextElementSibling;
+                details.classList.toggle('visible');
+            });
+        });
+    </script>
+</body>
+
+</html>
